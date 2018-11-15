@@ -10,8 +10,7 @@ const ${name} = (props) => {
   )
 }
   
-export default ${name}    
-`
+export default ${name}`
 
 const classComponent = (name) =>
   `import React from 'react'
@@ -43,8 +42,7 @@ class ${name} extends React.Component {
   }
 }
 
-export default ${name}
-`
+export default ${name}`
 
 module.exports = {
   functionalComponent,

@@ -54,3 +54,21 @@ $ rgenie rgenie -t react -n my-component --f
 
 `node test/tests.js`
 
+```bash
+✔ Success. Your 'react' component 'MyFunctionalComponent' was created
+  Execution time (hr): 0s 0.795919ms
+✔ Success. Your 'react' component 'MyClassComponent' was created
+  Execution time (hr): 0s 8.199699ms
+TAP version 13
+# hi
+ok 1 should be equal
+# hi
+ok 2 should be equal
+
+1..2
+# tests 2
+# pass  2
+
+# ok
+```
+
